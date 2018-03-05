@@ -9,7 +9,7 @@ export class NavHeader extends Component {
       <Navbar inverse collapseOnSelect>
         <Navbar.Header>
           <Navbar.Brand>
-            <a href="#brand">React-Bootstrap</a>
+            <Link href="/" to="/">Home</Link>
           </Navbar.Brand>
           <Navbar.Toggle />
         </Navbar.Header>

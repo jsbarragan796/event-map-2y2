@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import { Col, Row, Grid, Clearfix } from "react-bootstrap";
+import { Jumbotron, Col, Row, Grid, Clearfix } from "react-bootstrap";
 
 export class About extends Component {
 
@@ -10,8 +10,10 @@ export class About extends Component {
 
   render() {
     return (
-      <Grid>
-        <p>About</p>
+      <Grid fluid>
+        <Jumbotron>
+          
+        </Jumbotron>
       </Grid>
     )
   }

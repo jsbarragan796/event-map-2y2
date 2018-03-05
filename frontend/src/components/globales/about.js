@@ -2,12 +2,17 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import { Col, Row, Grid, Clearfix } from "react-bootstrap";
 
-export class LocationList extends Component {
+export class About extends Component {
+
+  constructor(props) {
+    super(props);
+  }
+
   render() {
     return (
       <Grid fluid="true">
-        <p>location list</p>
+        <p>About</p>
       </Grid>
-    );
+    )
   }
 }

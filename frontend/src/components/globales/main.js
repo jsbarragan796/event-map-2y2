@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import { Route, Switch } from "react-router-dom";
 import { Col, Row, Grid, Clearfix, Navbar, Nav, NavItem } from "react-bootstrap";
 
-
 import { SingupForm } from "../login/signupForm";
 import { LoginForm } from "../login/loginForm";
 import { About } from "../globales/about";

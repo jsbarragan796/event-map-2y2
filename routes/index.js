@@ -4,10 +4,7 @@ const MongoClient = require("mongodb").MongoClient;
 const assert = require("assert");
 const bodyParser = require("body-parser");
 
-
-//const uri = "mongodb://A1031810:FHXeRX5cxlxiDOSD@appbares-shard-00-00-wzvxn.mongodb.net:27017,appbares-shard-00-01-wzvxn.mongodb.net:27017,appbares-shard-00-02-wzvxn.mongodb.net:27017/bares?ssl=true&replicaSet=appBares-shard-0&authSource=admin";
-
-const uri = "mongodb+srv://A1031810:FHXeRX5cxlxiDOSD@appbares-wzvxn.mongodb.net/bares";
+const uri = "mongodb+srv://<<user>>:<<password>>@appbares-wzvxn.mongodb.net/bares";
 
 const addToCollection = function(db, usuario, collectionName, callback) {
   // Get the documents collection

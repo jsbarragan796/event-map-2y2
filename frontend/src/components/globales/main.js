@@ -18,17 +18,17 @@ export class Main extends Component {
   render() {
     return (
       <Switch>
-        <Route path="/" component={About} />
-        <Route path="/signup" component={SingupForm} />
-        <Route path="/login" component={LoginForm} />
+        <Route exact path="/" component={About} />
+        <Route exact path="/signup" component={SingupForm} />
+        <Route exact path="/login" component={LoginForm} />
 
-        <Route path="/user/:idUser" component={CommonUser} />
-        <Route path="/enterprice/:idEnterprice" component={EnterpriceUser} />
+        <Route path="/user" component={CommonUser} />
+        <Route path="/enterprice" component={EnterpriceUser} />
 
-        <Route path="/locations" component={LocationList} />
-        <Route path="/locations/:idLocation" component={LocationDetail} />
-        <Route path="/events" component={EventList} />
-        <Route path="/events/:idEvent" component={EventDetail} />
+        <Route exact path="/locations" component={LocationList} />
+        
+        <Route exact path="/events" component={EventList} />
+        
 
       </Switch>
     );

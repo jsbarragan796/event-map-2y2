@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import { Col, Row, Grid, Button, Jumbotron, FormGroup, ControlLabel, FormControl } from "react-bootstrap";
 
-export class SingupForm extends Component {
+export class SingupCommonForm extends Component {
   
   constructor(props) {
     super(props);
@@ -44,7 +44,6 @@ export class SingupForm extends Component {
     if (this.state.password.length > 0 && this.state.email.length > 0 &&
         this.state.name.length > 0 && this.state.city > 0) {
 
-          
     }
     else {
 

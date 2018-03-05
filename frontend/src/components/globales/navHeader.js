@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Link } from "react-router-dom";
-import { Navbar, Nav, NavItem, NavDropdown, MenuItem } from "react-bootstrap";
+import { Navbar, Nav, NavItem } from "react-bootstrap";
 
 
 export class NavHeader extends Component {
@@ -21,13 +21,6 @@ export class NavHeader extends Component {
             <NavItem eventKey={1} componentClass={Link} href="/EventList" to="/EventList">            
               Eventos cercanos!
             </NavItem>
-            <NavDropdown eventKey={3} title="Dropdown" id="basic-nav-dropdown">
-              <MenuItem eventKey={3.1}>Action</MenuItem>
-              <MenuItem eventKey={3.2}>Another action</MenuItem>
-              <MenuItem eventKey={3.3}>Something else here</MenuItem>
-              <MenuItem divider />
-              <MenuItem eventKey={3.3}>Separated link</MenuItem>
-            </NavDropdown>
           </Nav>
           <Nav pullRight>
             <NavItem eventKey={1} componentClass={Link} href="/login" to="/login">

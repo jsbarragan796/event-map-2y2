@@ -5,7 +5,7 @@ import { Col, Row, Grid, Clearfix } from "react-bootstrap";
 export class EnterpriceUser extends Component {
   render() {
     return (
-      <Grid fluid="true">
+      <Grid >
         <p>enterprice</p>
       </Grid>
     );

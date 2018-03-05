@@ -10,7 +10,7 @@ export class About extends Component {
 
   render() {
     return (
-      <Grid fluid="true">
+      <Grid>
         <p>About</p>
       </Grid>
     )

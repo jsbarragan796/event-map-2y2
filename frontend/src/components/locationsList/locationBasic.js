@@ -5,7 +5,7 @@ import { Col, Row, Grid, Clearfix } from "react-bootstrap";
 export class BasicLocation extends Component {
   render() {
     return (
-      <Grid fluid="true">
+      <Grid >
         <p>location basic</p>
       </Grid>
     );

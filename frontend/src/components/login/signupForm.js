@@ -14,7 +14,7 @@ export class SingupForm extends Component {
   
   render() {
     return (
-      <Grid fluid="true">
+      <Grid >
         <Jumbotron>
           <h2>Sign Up to the Website!!</h2>
           <p>

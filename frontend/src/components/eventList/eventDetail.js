@@ -5,7 +5,7 @@ import { Col, Row, Grid, Clearfix } from "react-bootstrap";
 export class EventDetail extends Component {
   render() {
     return (
-      <Grid fluid="true">
+      <Grid >
         <p>EventDetail</p>
       </Grid>
     );

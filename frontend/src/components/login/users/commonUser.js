@@ -5,7 +5,7 @@ import { Col, Row, Grid, Clearfix } from "react-bootstrap";
 export class CommonUser extends Component{
   render() {
     return (
-      <Grid fluid="true">
+      <Grid >
         <p>Common user</p>
       </Grid>
     );

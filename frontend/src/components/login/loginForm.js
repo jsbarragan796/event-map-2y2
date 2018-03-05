@@ -19,7 +19,7 @@ export class LoginForm extends Component {
 
   render(){
     return(
-      <Grid fluid="true">
+      <Grid >
         <p>login</p>
       </Grid>
     );

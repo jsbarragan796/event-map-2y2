@@ -6,7 +6,7 @@ import { Col, Row, Grid, Clearfix, Navbar, Nav, NavItem } from "react-bootstrap"
 export class NavHeader extends Component {
   render() {
     return(
-      <Grid fluid="true">
+      <Grid >
         <p>header</p>
       </Grid>
     );

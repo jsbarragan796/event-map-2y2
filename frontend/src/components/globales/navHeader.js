@@ -16,21 +16,21 @@ export class NavHeader extends Component {
         <Navbar.Collapse>
           <Nav>
             <NavItem eventKey={1} componentClass={Link} href="/LocationList" to="/LocationList">
-              Lugares a donde ir!
+              Buscar Lugares
             </NavItem>
             <NavItem eventKey={2} componentClass={Link} href="/EventList" to="/EventList">            
-              Eventos cercanos!
+              Buscar Eventos
             </NavItem>
           </Nav>
           <Nav pullRight>
             <NavItem eventKey={1} componentClass={Link} href="/login" to="/login">
-              Login!
+              Login
             </NavItem>
             <NavItem eventKey={3} componentClass={Link} href="/signupUser" to="/signupUser">
-              Signup User!
+              Signup
             </NavItem>
             <NavItem eventKey={4} componentClass={Link} href="/signupBusiness" to="/signupBusiness">
-              Signup Business!
+              Signup as Business
             </NavItem>
           </Nav>
         </Navbar.Collapse>

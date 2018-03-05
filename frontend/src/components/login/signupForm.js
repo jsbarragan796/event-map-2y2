@@ -41,6 +41,14 @@ export class SingupForm extends Component {
   }
 
   submitSignup(event) {
+    if (this.state.password.length > 0 && this.state.email.length > 0 &&
+        this.state.name.length > 0 && this.state.city > 0) {
+
+          
+    }
+    else {
+
+    }
     console.log("Submission: " + this.state.password + this.state.email);
   }
   
@@ -58,7 +66,7 @@ export class SingupForm extends Component {
             </Jumbotron>
           </Col>
           <Col sm={12} md={6}>
-            <form onSubmit={this.submitSignup.bind(this)}>
+            <form>
 
               <FormGroup
                 controlId="nameSignupInput"
@@ -120,6 +128,7 @@ export class SingupForm extends Component {
               </FormGroup>
 
               <Button
+                onClick={this.submitSignup.bind(this)}
                 bsStyle="primary"
                 bsSize="large" block
               >SignUp!

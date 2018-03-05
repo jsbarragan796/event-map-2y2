@@ -23,6 +23,12 @@ export class LoginForm extends Component {
   }
 
   submitLogin(event){
+    if (this.state.password.length > 0 && this.state.email.length > 0){
+
+    }
+    else{
+      
+    }
     console.log("Submission: " + this.state.password + this.state.email);
   }
 
@@ -40,7 +46,7 @@ export class LoginForm extends Component {
             </Jumbotron>
           </Col>
           <Col sm={12} md={6}>
-            <form onSubmit={this.submitLogin.bind(this)}>
+            <form>
               <FormGroup
                 controlId="emailLoginInput"
               >
@@ -72,6 +78,7 @@ export class LoginForm extends Component {
               </FormGroup>
 
               <Button
+                onClick={this.submitLogin.bind(this)}
                 bsStyle="primary" 
                 bsSize="large" 
                 block

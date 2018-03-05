@@ -18,7 +18,7 @@ export class NavHeader extends Component {
             <NavItem eventKey={1} componentClass={Link} href="/LocationList" to="/LocationList">
               Lugares a donde ir!
             </NavItem>
-            <NavItem eventKey={1} componentClass={Link} href="/EventList" to="/EventList">            
+            <NavItem eventKey={2} componentClass={Link} href="/EventList" to="/EventList">            
               Eventos cercanos!
             </NavItem>
           </Nav>
@@ -26,8 +26,11 @@ export class NavHeader extends Component {
             <NavItem eventKey={1} componentClass={Link} href="/login" to="/login">
               Login!
             </NavItem>
-            <NavItem eventKey={1} componentClass={Link} href="/signup" to="/signup">
-              Signup!
+            <NavItem eventKey={3} componentClass={Link} href="/signupUser" to="/signupUser">
+              Signup User!
+            </NavItem>
+            <NavItem eventKey={4} componentClass={Link} href="/signupBusiness" to="/signupBusiness">
+              Signup Business!
             </NavItem>
           </Nav>
         </Navbar.Collapse>

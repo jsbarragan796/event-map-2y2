@@ -3,7 +3,8 @@ import { Link } from "react-router-dom";
 import { Route, Switch } from "react-router-dom";
 import { Col, Row, Grid, Clearfix, Navbar, Nav, NavItem } from "react-bootstrap";
 
-import { SingupForm } from "../login/signupForm";
+import { SingupCommonForm } from "../login/signupCommonForm";
+import { SingupEnterpriceForm } from "../login/signupEnterpriceForm";
 import { LoginForm } from "../login/loginForm";
 import { About } from "../globales/about";
 import { CommonUser } from "../login/users/commonUser";
@@ -18,7 +19,8 @@ export class Main extends Component {
     return (
       <Switch>
         <Route exact path="/" component={About} />
-        <Route exact path="/signup" component={SingupForm} />
+        <Route exact path="/signupUser" component={SingupCommonForm} />
+        <Route exact path="/signupBusiness" component={SingupEnterpriceForm} />
         <Route exact path="/login" component={LoginForm} />
 
         <Route path="/user" component={CommonUser} />
